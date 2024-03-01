@@ -1,0 +1,179 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "coperex",
+    "dateExported": "2024-03-01T05:50:02.159Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "12eb4fa5-0f9e-4eb9-b0cc-3bd5a6089abf",
+            "colId": "05336cf6-cfe2-4fe2-8e31-3c5d1ec9f6ab",
+            "containerId": "",
+            "name": "test user",
+            "url": "/user/test",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-03-01T02:35:16.089Z",
+            "modified": "2024-03-01T02:35:58.958Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "3447e385-f666-4f8a-bc4b-1632521895ec",
+            "colId": "05336cf6-cfe2-4fe2-8e31-3c5d1ec9f6ab",
+            "containerId": "",
+            "name": "register user",
+            "url": "/user/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-01T02:39:48.366Z",
+            "modified": "2024-03-01T03:18:05.833Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "carlos"
+                    },
+                    {
+                        "name": "surname",
+                        "value": "de la cruz"
+                    },
+                    {
+                        "name": "username",
+                        "value": "cdlc"
+                    },
+                    {
+                        "name": "password",
+                        "value": "1"
+                    },
+                    {
+                        "name": "email",
+                        "value": "cdlc@gmail.com"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "7d6b7b67-6ecd-43e2-8b31-5b565c1b8b82",
+            "colId": "05336cf6-cfe2-4fe2-8e31-3c5d1ec9f6ab",
+            "containerId": "",
+            "name": "update user",
+            "url": "/user/update/65e148ed4589aaf4cc1c3bfa",
+            "method": "PUT",
+            "sortNum": 20000,
+            "created": "2024-03-01T05:17:38.791Z",
+            "modified": "2024-03-01T05:22:26.625Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxNDhlZDQ1ODlhYWY0Y2MxYzNiZmEiLCJ1c2VybmFtZSI6ImNkbGMiLCJlbWFpbCI6ImNkbGNAZ21haWwuY29tIiwibmFtZSI6ImNhcmxvcyIsImlhdCI6MTcwOTI3MDQ3NiwiZXhwIjoxNzA5MjgxMjc2fQ.IWzVMenumsDQY7afRj1k61jkbp_gf77_iwrlvnbgCGI"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Carlos Fernando"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "a63626fc-2ef8-41a5-b47f-0a63f09ef3cb",
+            "colId": "05336cf6-cfe2-4fe2-8e31-3c5d1ec9f6ab",
+            "containerId": "",
+            "name": "login ",
+            "url": "/user/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-03-01T04:30:44.732Z",
+            "modified": "2024-03-01T04:42:09.379Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "carlos",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "surname",
+                        "value": "de la cruz",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "username",
+                        "value": "cdlc"
+                    },
+                    {
+                        "name": "password",
+                        "value": "1"
+                    },
+                    {
+                        "name": "email",
+                        "value": "cdlc@gmail.com",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "phone",
+                        "value": "12345678",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "2433dd99-7c21-4d35-950b-b33079dda929",
+            "colId": "05336cf6-cfe2-4fe2-8e31-3c5d1ec9f6ab",
+            "containerId": "",
+            "name": "update user Copy",
+            "url": "/user/delete/65e148ed4589aaf4cc1c3bfa",
+            "method": "DELETE",
+            "sortNum": 30000,
+            "created": "2024-03-01T05:36:07.128Z",
+            "modified": "2024-03-01T05:36:19.638Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxNDhlZDQ1ODlhYWY0Y2MxYzNiZmEiLCJ1c2VybmFtZSI6ImNkbGMiLCJlbWFpbCI6ImNkbGNAZ21haWwuY29tIiwibmFtZSI6ImNhcmxvcyIsImlhdCI6MTcwOTI3MDQ3NiwiZXhwIjoxNzA5MjgxMjc2fQ.IWzVMenumsDQY7afRj1k61jkbp_gf77_iwrlvnbgCGI"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Carlos Fernando",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:2656"
+        }
+    }
+}
