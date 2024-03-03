@@ -6,6 +6,7 @@ import morgan from "morgan"
 import helmet from 'helmet'
 import cors from 'cors'
 import userRoutes from '../src/user/user.routes.js'
+import companyRoutes from '../src/company/company.routes.js'
 
 //configs
 const app = express()
@@ -21,6 +22,7 @@ app.use(morgan('dev'))
 
 //declaracion de rutas
 app.use('/user', userRoutes)
+app.use('/company', companyRoutes)
 
 //levantar el server(revisar que si prende)
 export const initServer = ()=>{

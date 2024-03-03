@@ -1,34 +1,133 @@
 {
     "client": "Thunder Client",
     "collectionName": "coperex",
-    "dateExported": "2024-03-01T05:50:02.159Z",
+    "dateExported": "2024-03-03T22:53:42.047Z",
     "version": "1.1",
-    "folders": [],
+    "folders": [
+        {
+            "_id": "03642ac9-5b35-4be6-9dc2-723d3eab5d41",
+            "name": "user",
+            "containerId": "",
+            "created": "2024-03-03T06:51:35.626Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "a5323629-a7cd-4937-8abe-8ddf145ba53b",
+            "name": "company",
+            "containerId": "",
+            "created": "2024-03-03T06:59:14.306Z",
+            "sortNum": 20000
+        }
+    ],
     "requests": [
         {
-            "_id": "12eb4fa5-0f9e-4eb9-b0cc-3bd5a6089abf",
-            "colId": "05336cf6-cfe2-4fe2-8e31-3c5d1ec9f6ab",
-            "containerId": "",
+            "_id": "a498f0d5-cd06-44a7-9f38-be54e9f42ab9",
+            "colId": "b0c53521-1a46-47dc-bf0e-1f46c4519220",
+            "containerId": "03642ac9-5b35-4be6-9dc2-723d3eab5d41",
             "name": "test user",
             "url": "/user/test",
             "method": "GET",
             "sortNum": 10000,
-            "created": "2024-03-01T02:35:16.089Z",
-            "modified": "2024-03-01T02:35:58.958Z",
+            "created": "2024-03-03T06:51:25.968Z",
+            "modified": "2024-03-03T06:51:25.968Z",
             "headers": [],
             "params": [],
             "tests": []
         },
         {
-            "_id": "3447e385-f666-4f8a-bc4b-1632521895ec",
-            "colId": "05336cf6-cfe2-4fe2-8e31-3c5d1ec9f6ab",
-            "containerId": "",
+            "_id": "86d45561-e4de-4524-9bdd-33478588ad70",
+            "colId": "b0c53521-1a46-47dc-bf0e-1f46c4519220",
+            "containerId": "a5323629-a7cd-4937-8abe-8ddf145ba53b",
+            "name": "test company",
+            "url": "/company/test",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-03-03T06:59:14.307Z",
+            "modified": "2024-03-03T18:09:23.314Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9da4cf69-1dcc-4933-a91d-f6b4791a8e17",
+            "colId": "b0c53521-1a46-47dc-bf0e-1f46c4519220",
+            "containerId": "a5323629-a7cd-4937-8abe-8ddf145ba53b",
+            "name": "sort company a - z",
+            "url": "/company/sortAZ",
+            "method": "GET",
+            "sortNum": 17500,
+            "created": "2024-03-03T21:36:30.719Z",
+            "modified": "2024-03-03T21:37:24.849Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "fa7215cf-6a4f-436d-983b-33d625405a05",
+            "colId": "b0c53521-1a46-47dc-bf0e-1f46c4519220",
+            "containerId": "a5323629-a7cd-4937-8abe-8ddf145ba53b",
+            "name": "sort company z - a",
+            "url": "/company/sortZA",
+            "method": "GET",
+            "sortNum": 18125,
+            "created": "2024-03-03T21:36:07.679Z",
+            "modified": "2024-03-03T21:39:40.901Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "834d2214-6851-4a87-bcad-b83f99d27295",
+            "colId": "b0c53521-1a46-47dc-bf0e-1f46c4519220",
+            "containerId": "a5323629-a7cd-4937-8abe-8ddf145ba53b",
+            "name": "sort company antiquity",
+            "url": "/company/sortAntiquity",
+            "method": "GET",
+            "sortNum": 19062.5,
+            "created": "2024-03-03T21:46:53.399Z",
+            "modified": "2024-03-03T21:47:26.828Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "9feef19f-38ad-4972-a3e1-d62d110b2e61",
+            "colId": "b0c53521-1a46-47dc-bf0e-1f46c4519220",
+            "containerId": "a5323629-a7cd-4937-8abe-8ddf145ba53b",
+            "name": "sort company Novelty",
+            "url": "/company/sortNovelty",
+            "method": "GET",
+            "sortNum": 19531.3,
+            "created": "2024-03-03T21:53:26.945Z",
+            "modified": "2024-03-03T21:53:48.588Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "53fff221-2953-4f7a-973f-d6ccbc83c823",
+            "colId": "b0c53521-1a46-47dc-bf0e-1f46c4519220",
+            "containerId": "a5323629-a7cd-4937-8abe-8ddf145ba53b",
+            "name": "excel",
+            "url": "/company/excel",
+            "method": "GET",
+            "sortNum": 19765.7,
+            "created": "2024-03-03T22:26:28.404Z",
+            "modified": "2024-03-03T22:26:41.349Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "66223db8-0cb1-4ac8-a694-986d0a307b20",
+            "colId": "b0c53521-1a46-47dc-bf0e-1f46c4519220",
+            "containerId": "03642ac9-5b35-4be6-9dc2-723d3eab5d41",
             "name": "register user",
             "url": "/user/register",
             "method": "POST",
             "sortNum": 20000,
-            "created": "2024-03-01T02:39:48.366Z",
-            "modified": "2024-03-01T03:18:05.833Z",
+            "created": "2024-03-03T06:51:25.969Z",
+            "modified": "2024-03-03T06:51:25.969Z",
             "headers": [],
             "params": [],
             "body": {
@@ -64,15 +163,55 @@
             "tests": []
         },
         {
-            "_id": "7d6b7b67-6ecd-43e2-8b31-5b565c1b8b82",
-            "colId": "05336cf6-cfe2-4fe2-8e31-3c5d1ec9f6ab",
-            "containerId": "",
+            "_id": "f5e74ff9-eba0-48f7-bd20-b4de836a5da1",
+            "colId": "b0c53521-1a46-47dc-bf0e-1f46c4519220",
+            "containerId": "a5323629-a7cd-4937-8abe-8ddf145ba53b",
+            "name": "register company",
+            "url": "/company/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-03T06:59:14.308Z",
+            "modified": "2024-03-03T21:39:01.903Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "salomon house"
+                    },
+                    {
+                        "name": "email",
+                        "value": "salomonh@gmail.com"
+                    },
+                    {
+                        "name": "phone",
+                        "value": "12345678"
+                    },
+                    {
+                        "name": "category",
+                        "value": "beds shop"
+                    },
+                    {
+                        "name": "inauguration",
+                        "value": "2002-02-28"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "46b079f3-bdf8-45c7-a651-bf1c080bbb1b",
+            "colId": "b0c53521-1a46-47dc-bf0e-1f46c4519220",
+            "containerId": "03642ac9-5b35-4be6-9dc2-723d3eab5d41",
             "name": "update user",
             "url": "/user/update/65e148ed4589aaf4cc1c3bfa",
             "method": "PUT",
-            "sortNum": 20000,
-            "created": "2024-03-01T05:17:38.791Z",
-            "modified": "2024-03-01T05:22:26.625Z",
+            "sortNum": 30000,
+            "created": "2024-03-03T06:51:25.971Z",
+            "modified": "2024-03-03T06:51:25.971Z",
             "headers": [
                 {
                     "name": "authorization",
@@ -93,15 +232,93 @@
             "tests": []
         },
         {
-            "_id": "a63626fc-2ef8-41a5-b47f-0a63f09ef3cb",
-            "colId": "05336cf6-cfe2-4fe2-8e31-3c5d1ec9f6ab",
-            "containerId": "",
+            "_id": "6a400098-6cd1-425b-a162-b3b3a326ea81",
+            "colId": "b0c53521-1a46-47dc-bf0e-1f46c4519220",
+            "containerId": "a5323629-a7cd-4937-8abe-8ddf145ba53b",
+            "name": "update company",
+            "url": "/company/update/65e4edf5f9742e10c73e087a",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-03-03T06:59:14.309Z",
+            "modified": "2024-03-03T21:45:49.012Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxNDhlZDQ1ODlhYWY0Y2MxYzNiZmEiLCJ1c2VybmFtZSI6ImNkbGMiLCJlbWFpbCI6ImNkbGNAZ21haWwuY29tIiwibmFtZSI6ImNhcmxvcyIsImlhdCI6MTcwOTI3MDQ3NiwiZXhwIjoxNzA5MjgxMjc2fQ.IWzVMenumsDQY7afRj1k61jkbp_gf77_iwrlvnbgCGI"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "inauguration",
+                        "value": "1980"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "bf51dc79-03c2-48fe-b88f-d478e28ed142",
+            "colId": "b0c53521-1a46-47dc-bf0e-1f46c4519220",
+            "containerId": "03642ac9-5b35-4be6-9dc2-723d3eab5d41",
+            "name": "delete user",
+            "url": "/user/delete/65e148ed4589aaf4cc1c3bfa",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-03-03T06:51:25.972Z",
+            "modified": "2024-03-03T06:51:25.972Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxNDhlZDQ1ODlhYWY0Y2MxYzNiZmEiLCJ1c2VybmFtZSI6ImNkbGMiLCJlbWFpbCI6ImNkbGNAZ21haWwuY29tIiwibmFtZSI6ImNhcmxvcyIsImlhdCI6MTcwOTI3MDQ3NiwiZXhwIjoxNzA5MjgxMjc2fQ.IWzVMenumsDQY7afRj1k61jkbp_gf77_iwrlvnbgCGI"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Carlos Fernando",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "0ddf8010-e79c-4c0b-9319-89e89b975c66",
+            "colId": "b0c53521-1a46-47dc-bf0e-1f46c4519220",
+            "containerId": "a5323629-a7cd-4937-8abe-8ddf145ba53b",
+            "name": "delete company",
+            "url": "/company/delete/65e4c9766c6a022489039035",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-03-03T06:59:14.310Z",
+            "modified": "2024-03-03T20:25:07.418Z",
+            "headers": [
+                {
+                    "name": "authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxNDhlZDQ1ODlhYWY0Y2MxYzNiZmEiLCJ1c2VybmFtZSI6ImNkbGMiLCJlbWFpbCI6ImNkbGNAZ21haWwuY29tIiwibmFtZSI6ImNhcmxvcyIsImlhdCI6MTcwOTI3MDQ3NiwiZXhwIjoxNzA5MjgxMjc2fQ.IWzVMenumsDQY7afRj1k61jkbp_gf77_iwrlvnbgCGI"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "8e989d83-b07a-4e9b-9069-6a97d4d81817",
+            "colId": "b0c53521-1a46-47dc-bf0e-1f46c4519220",
+            "containerId": "03642ac9-5b35-4be6-9dc2-723d3eab5d41",
             "name": "login ",
             "url": "/user/login",
             "method": "POST",
-            "sortNum": 30000,
-            "created": "2024-03-01T04:30:44.732Z",
-            "modified": "2024-03-01T04:42:09.379Z",
+            "sortNum": 50000,
+            "created": "2024-03-03T06:51:25.970Z",
+            "modified": "2024-03-03T06:51:25.970Z",
             "headers": [],
             "params": [],
             "body": {
@@ -134,36 +351,6 @@
                     {
                         "name": "phone",
                         "value": "12345678",
-                        "isDisabled": true
-                    }
-                ]
-            },
-            "tests": []
-        },
-        {
-            "_id": "2433dd99-7c21-4d35-950b-b33079dda929",
-            "colId": "05336cf6-cfe2-4fe2-8e31-3c5d1ec9f6ab",
-            "containerId": "",
-            "name": "update user Copy",
-            "url": "/user/delete/65e148ed4589aaf4cc1c3bfa",
-            "method": "DELETE",
-            "sortNum": 30000,
-            "created": "2024-03-01T05:36:07.128Z",
-            "modified": "2024-03-01T05:36:19.638Z",
-            "headers": [
-                {
-                    "name": "authorization",
-                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUxNDhlZDQ1ODlhYWY0Y2MxYzNiZmEiLCJ1c2VybmFtZSI6ImNkbGMiLCJlbWFpbCI6ImNkbGNAZ21haWwuY29tIiwibmFtZSI6ImNhcmxvcyIsImlhdCI6MTcwOTI3MDQ3NiwiZXhwIjoxNzA5MjgxMjc2fQ.IWzVMenumsDQY7afRj1k61jkbp_gf77_iwrlvnbgCGI"
-                }
-            ],
-            "params": [],
-            "body": {
-                "type": "formencoded",
-                "raw": "",
-                "form": [
-                    {
-                        "name": "name",
-                        "value": "Carlos Fernando",
                         "isDisabled": true
                     }
                 ]
